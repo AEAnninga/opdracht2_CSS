@@ -140,12 +140,25 @@ li:last-child {
     h1, h4, p, li, a {
         color: rgb(0, 150, 250);
         line-height: 0.5;
-        font-size: 90%
+        font-size: 15px
     }
     p.intro {
         color: rgb(0, 152, 253);
         line-height: 0.5;
         font-size: 150%
+    }
+
+    .border {    
+        border-style: solid;
+        border-bottom-right-radius: 0.5em;
+        border-top-left-radius: 0.5em;    
+        border-color: #69C rgba(102, 153, 204, 0.651) rgba(102, 153, 204, 0.651) rgba(255, 255, 255, 0);
+        border-width: 0 2em 5.5em 3em;
+        width: 0em;
+        margin: -0.5em 0 0 0;
+        padding: 0;
+        float: left;
+        clear: left;
     }
     
 }
